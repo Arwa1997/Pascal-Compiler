@@ -1,0 +1,11 @@
+PROGRAM BASIC
+VAR 
+X,Y,A,B,C,Z
+BEGIN
+READ(X,Y,Z,B)
+A:=X+B;
+C:=Z+X;
+C:=C*B;
+Z:=A+7+B+C;
+WRITE(A,C,Z)
+END.
